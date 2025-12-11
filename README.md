@@ -1,120 +1,94 @@
-📊 Business Insights 360 — Power BI Project
-🔗 Live Dashboard: Business Insights 360
-🏠 Home Page
-Objective:
+# 📊 **Business Insights 360 — Power BI Project**
 
-Designed a centralized landing page that allows users to easily navigate to multiple analytical views within the dashboard.
+🔗 **Live Dashboard:** *Business Insights 360*
 
-Features:
+---
 
-🧭 Interactive Navigation: Each image redirects users to its respective view (Finance, Sales, Marketing, Supply Chain, Executive, Product).
+# 🏠 **Home Page — Objective**
+Designed a centralized landing page enabling smooth navigation across multiple analytical views.
 
-📅 Last Refreshed Date: Displays the last time the dataset was updated.
+## ⭐ **Features**
+- 🧭 **Interactive Navigation:** Images redirect to respective views (Finance, Sales, Marketing, Supply Chain, Executive, Product).  
+- 📅 **Last Refreshed Date:** Shows the latest dataset update.  
+- 💲 **Values in Millions ($):** Financial metrics are displayed in millions.  
+- 🗓️ **Sales Data Till mmm/yy:** Indicates the latest month of sales loaded.  
 
-💲 Values in Millions ($): All financial values shown in the dashboard are represented in millions for readability.
+---
 
-🗓️ Sales Data Till mmm/yy: Indicates the last available month of sales data loaded into the dataset.
+# 💰 **Finance View — Objective**
+Build a complete financial overview for strategic decision-making.
 
-💰 Finance View
-Objective:
+## ⭐ **Key Features**
+- 📌 **KPI Visuals:** Net Sales, Gross Margin %, Net Profit % vs LY/Targets.  
+- 📊 **Profit & Loss Statement:** Summary of revenue, expenses, and profit/loss.  
+- 👥 **Top/Bottom Customers & Products:** Highlights highest and lowest contributors.  
 
-Build a comprehensive financial overview for decision-makers.
+---
 
-Key Features:
+# 🛒 **Sales View — Objective**
+Deliver deep insights into customer and product sales performance.
 
-📌 KPI Visuals: Net Sales, Gross Margin %, and Net Profit % compared with their benchmarks (Last Year/Targets).
+## ⭐ **Key Features**
+- 👤 **Customer Performance:** Based on Net Sales, GM, GM%.  
+- 📦 **Product Performance:** Product-level Net Sales & profitability.  
+- 📈 **Performance Matrix:** Scatter plot — GM% vs Net Sales.  
+- 🍩 **Product Metrics:** Donut charts for Net Sales, Deductions, COGS, GM.  
 
-📊 Profit & Loss Statement: Summarizes revenues, expenses, and profits/losses for the selected period.
+---
 
-👥 Top/Bottom Customers & Products: Highlights entities with the highest and lowest Net Sales contributions.
+# 📣 **Marketing View — Objective**
+Analyze marketing-focused product, region, and customer insights.
 
-🛒 Sales View
-Objective:
+## ⭐ **Key Features**
+- 📦 **Product Metrics:** Net Sales, GM%, Net Profit, NP%.  
+- 🌍 **Region/Market/Customer Performance:** Filter-based breakdowns.  
+- 🎯 **Dual Filter Performance Matrix:** GM% / NP% vs Net Sales.  
+- 🧩 **Unit Economics:**  
+  - Donut: COGS & GM  
+  - Waterfall: Net Profit after OpEx  
 
-Provide a detailed analysis of customer and product sales performance.
+---
 
-Key Features:
+# 🚚 **Supply Chain View — Objective**
+Provide operational insights for supply chain optimization.
 
-👤 Customer Performance: Evaluated based on Net Sales, Gross Margin, and Gross Margin %.
+## ⭐ **Key Features**
+- 📊 **KPIs:** Forecast Accuracy, Net Error, ABS Error vs benchmarks.  
+- 📉 **Trend Analysis:** Accuracy & Net Error vs LY.  
+- 🔍 **Product-Level Metrics:** Supply chain metrics by product.  
 
-📦 Product Performance: Insights into product-level Net Sales and profitability.
+---
 
-📈 Performance Matrix: Scatter plot visualizing customers across Gross Margin % and Net Sales quadrants.
+# 🧑‍💼 **Executive View — Objective**
+Offer leadership a high-level snapshot of business KPIs.
 
-🍩 Key Metrics by Product: Donut charts showing Net Sales, Post Invoice Deductions, Pre Invoice Deductions, COGS, and Gross Margin distribution.
+## ⭐ **Key Features**
+- 📌 **KPI Visuals:** Forecast Accuracy, Net Sales, GM%, NP% vs targets.  
+- 🍩 **Revenue Distribution:** By Division & Channel.  
+- 🌐 **Subzone Insights**  
+- 📆 **Yearly Trends:** Net Sales, GM%, NP%, PC Market Share %.  
 
-📣 Marketing View
-Objective:
+---
 
-Analyze marketing-related customer, region, and product insights.
+# 🏷️ **Product View — Objective**
+Evaluate product performance and customer target achievements.
 
-Key Features:
+## ⭐ **Key Features**
+- 🎯 **Customer GM% Target Tracking:** Conditional formatting indicators.  
+- 🏆 **Top 5 & Bottom 5 Products:** Based on GM metrics and growth.  
 
-📦 Product Performance Metrics: Including Net Sales, Gross Margin %, Net Profit, and Net Profit %.
+---
 
-🌍 Region/Market/Customer Performance: Breakdown of customer metrics filtered by specific regions or markets.
+# ⚙️ **Technical Skills Demonstrated**
+- 🔁 **ETL Methodology:** Efficient data processing.  
+- 📅 **Date Tables:** Built using Power Query.  
+- 🔗 **Data Modeling:** Managed relationships and star schema.  
+- ➕ **DAX Expertise:** Measures, calculated columns & tables.  
+- 🧩 **Visual Design:** Purposeful and insight-driven visuals.  
+- 🗄️ **MySQL Database:** Data extraction via SQL.  
+- 📉 **Optimization:** File size reduction using DAX Studio.  
+- 🛈 **Tooltips:** Added enhanced contextual insights.  
 
-🎯 Performance Matrix (Dual Filters): Scatter plot of customers based on Gross Margin % / Net Profit % vs Net Sales.
+---
 
-🧩 Unit Economics:
-
-Donut chart for COGS & Gross Margin breakdown
-
-Waterfall chart showing Net Profit after operational expenses
-
-🚚 Supply Chain View
-Objective:
-
-Provide operational insights for the supply chain team.
-
-Key Features:
-
-📊 KPI Visuals: Forecast Accuracy, Net Error, and ABS Error vs benchmarks.
-
-📉 Accuracy & Net Error Trend: Line and column charts comparing current vs last year.
-
-🔍 Key Metrics by Product: Product-wise breakdown of relevant supply chain metrics.
-
-🧑‍💼 Executive View
-Objective:
-
-Enable leadership teams to access high-level business KPIs.
-
-Key Features:
-
-📌 KPI Visuals: Forecast Accuracy, Net Sales, Gross Margin %, and Net Profit % vs targets.
-
-🍩 Revenue Distribution: By Division and by Channel (Two Donut Charts).
-
-🌐 Key Insights by Subzone
-
-📆 Yearly Trend Analysis: Net Sales, GM%, NP%, and PC Market Share % using Line & Clustered Column chart.
-
-🏷️ Product View
-Objective:
-
-Analyze performance of products and customer targets.
-
-Key Features:
-
-🎯 Customer GM % Target Tracking: Conditional formatting to indicate customers meeting/lagging target values.
-
-🏆 Top 5 & Bottom 5 Products: Based on GM%, GM% LY, and GM% Growth.
-
-⚙️ Technical Skills Demonstrated
-
-🔁 ETL Methodology: Extract, transform, and load data efficiently.
-
-📅 Generated Date Tables: Using Power Query for fiscal months, quarters, etc.
-
-🔗 Data Modeling: Established relationships between tables in Model View.
-
-➕ DAX Expertise: Created calculated columns, measures, and tables.
-
-🧩 Visual Design: Used appropriate visualizations to highlight key insights.
-
-🗄️ MySQL Database: Loaded and retrieved data using SQL.
-
-📉 Optimization: Reduced PBIX file size using DAX Studio.
-
-🛈 Tooltips: Added detailed insights using report tooltips.
+# ⭐ **If you found this useful, don't forget to star the repository!**
